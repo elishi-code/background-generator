@@ -5,7 +5,7 @@ from pathlib import Path
  
 from PIL import Image
 
-def get_from_to_folders(from_to_dir):
+def get_from_to_folders(from_to_dir): # get arguments
 	# total arguments
 	n = len(sys.argv)
 	if n != 3:
